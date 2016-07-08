@@ -1,6 +1,6 @@
 Source: goaccess
-Section: utils
-Priority: optional
+Section: universe/utils
+Priority: extra
 Maintainer: Genki Sugawara <sgwr_dts@yahoo.co.jp>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.4
