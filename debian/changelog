@@ -1,3 +1,9 @@
+goaccess (1.0.2-2) trusty; urgency=low
+
+  * Allow empty query string
+
+ -- Genki Sugawara <sgwr_dts@yahoo.co.jp>  Fri, 08 Jul 2016 19:34:47 +0900
+
 goaccess (1.0.2-1) trusty; urgency=low
 
   * Version 1.0.2

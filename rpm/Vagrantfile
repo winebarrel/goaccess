@@ -8,7 +8,7 @@ Vagrant.configure("2") do |config|
     yum install -y rpmdevtools ncurses-devel GeoIP-devel
     runuser -l vagrant -c rpmdev-setuptree
     runuser -l vagrant -c "ln -fs /vagrant/rpm/goaccess.spec /home/vagrant/rpmbuild/SPECS/"
-    runuser -l vagrant -c "wget -q http://tar.goaccess.io/goaccess-1.0.2.tar.gz -O /home/vagrant/rpmbuild/SOURCES/goaccess-0.1.2.tar.gz"
+    runuser -l vagrant -c "wget -q http://tar.goaccess.io/goaccess-1.0.2.tar.gz -O /home/vagrant/rpmbuild/SOURCES/goaccess-1.0.2.tar.gz"
     runuser -l vagrant -c "rpmbuild -ba /vagrant/rpm/goaccess.spec"
     mv /home/vagrant/rpmbuild/RPMS/x86_64/*.rpm /home/vagrant/rpmbuild/SRPMS/*.src.rpm /vagrant/rpm/
   SHELL

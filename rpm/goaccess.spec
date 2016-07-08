@@ -1,6 +1,6 @@
 Name:		goaccess
 Version:	1.0.2
-Release:	1%{?dist}
+Release:	2%{?dist}
 Summary:	Real-time web log analyzer and interactive viewer
 
 Group:		Applications/Utilities
