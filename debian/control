@@ -1,0 +1,12 @@
+Source: goaccess
+Section: utils
+Priority: optional
+Maintainer: Genki Sugawara <sgwr_dts@yahoo.co.jp>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+Homepage: https://github.com/allinurl/goaccess
+
+Package: goaccess
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: GoAccess is a real-time web log analyzer and interactive viewer that runs in a terminal in *nix systems or through your browser.
