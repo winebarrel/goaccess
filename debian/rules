@@ -8,7 +8,7 @@
 	dh $@
 
 override_dh_auto_configure:
-	./configure --enable-geoip --enable-utf8
+	autoreconf -fiv && ./configure --enable-geoip --enable-utf8
 
 override_dh_auto_install:
 	# nothing to do
